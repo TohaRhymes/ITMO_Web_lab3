@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core" >
+<h:head>
+    <title>Lab 3</title>
+    <link rel="stylesheet" href="static/styles/main.css"/>
+</h:head>
+<h:body>
+    <div class="header">
+        <div id="logo">
+            <a href="http://se.ifmo.ru" target="_blank"> <img src="static/img/vt-logo.png" alt="logo" id="logoimg"/></a><br/>
+        </div>
+        <div id="info">
+            <p> <a href="https://github.com/TohaRhymes">Changalidi Anton</a> </p>
+            <p>P3214</p>
+            <p>Lab3 Variant 21905</p>
+        </div>
+    </div>
+    <div class="main">
+        <h:form>
+            <h2>Введите координату X</h2>
+            <p:selectOneRadio id="x" value="#{checker.x}" required="true" styleClass="r-button"
+                              requiredMessage="Не отмечено ни одного элемента" layout="grid" columns="4">
+                <f:selectItem itemValue="-3.0" itemLabel="-3"/>
+                <f:selectItem itemValue="-2.0" itemLabel="-2"/>
+                <f:selectItem itemValue="-1.0" itemLabel="-1"/>
+                <f:selectItem itemValue="0.0" itemLabel="0"/>
+                <f:selectItem itemValue="1.0" itemLabel="1"/>
+                <f:selectItem itemValue="2.0" itemLabel="2"/>
+                <f:selectItem itemValue="3.0" itemLabel="3"/>
+                <f:selectItem itemValue="4.0" itemLabel="4"/>
+            </p:selectOneRadio>
+            <h:message for="x" styleClass="warn"/>
+            <h2>Введите координату Y</h2>
+            <p:inputText id="y" value="#{checker.y}" required="true" requiredMessage="Поле является пустым"
+                         validatorMessage="Число вышло за ОДЗ" converterMessage="Введено не число" placeholder="от -3 до 3">
+                <f:validateDoubleRange minimum="-3.0" maximum="3.0" />
+            </p:inputText><br/>
+            <h:message for="y" styleClass="warn"/>
+            <h2>Введите радиус</h2>
+            <p:inputText id="r" value="#{checker.r}" required="true" requiredMessage="Поле является пустым"
+                         validatorMessage="Число вышло за ОДЗ" converterMessage="Введено не число">
+                <f:validateDoubleRange minimum="1.0" maximum="4.0"/>
+            </p:inputText><br/>
+            <p:slider for="r" minValue="1" maxValue="4" step="0.25" style="width: 220px; margin-top: 5px"/>
+            <h:message for="r" styleClass="warn"/><br/>
+            <h:commandButton styleClass="submit-button" action="#{checker.setChecked}" value="Проверить"/>
+        </h:form>
+        <h:panelGroup rendered="#{checker.ready}">
+            <h2>Результат проверки</h2>
+            X=#{checker.x}, Y=#{checker.y}, R=#{checker.r}
+        </h:panelGroup><br/>
+        <h:form><h:commandButton styleClass="history-button button" action="GoToHome" value="Start Page"/></h:form>
+    </div>
+</h:body>
+</html>
