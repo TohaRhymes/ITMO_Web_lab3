@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"
+        [
+                <!ELEMENT canvas EMPTY>
+                <!ATTLIST canvas
+                        id          ID             #IMPLIED
+                        class       CDATA          #IMPLIED
+                        style       CDATA          #IMPLIED
+                        title       CDATA          #IMPLIED
+                        lang        CDATA          #IMPLIED
+                        xml:lang    CDATA          #IMPLIED
+                        dir         (ltr|rtl)      #IMPLIED
+                        onclick     CDATA          #IMPLIED
+                        ondblclick  CDATA          #IMPLIED
+                        onmousedown CDATA          #IMPLIED
+                        onmouseup   CDATA          #IMPLIED
+                        onmouseover CDATA          #IMPLIED
+                        onmousemove CDATA          #IMPLIED
+                        onmouseout  CDATA          #IMPLIED
+                        onkeypress  CDATA          #IMPLIED
+                        onkeydown   CDATA          #IMPLIED
+                        onkeyup     CDATA          #IMPLIED
+                        height      CDATA          #IMPLIED
+                        width       CDATA          #IMPLIED
+                        >
+                <!ENTITY % InlSpecial.class
+                        " | audio | canvas | embed | iframe | img | math | object | svg | video">
+                ]
+        >
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://xmlns.jcp.org/jsf/html"
       xmlns:p="http://primefaces.org/ui"
@@ -57,15 +83,8 @@
                                  placeholder="from -3 to 3.">
                         <f:validateDoubleRange minimum="-3.0" maximum="3.0"/>
                     </p:inputText><br/>
-                    <h:message for="y" styleClass="warn"/>IT
-                    <!--                    <h2>Введите радиус</h2>-->
-                    <!--                    <p:inputText id="r" value="#{checker.r}" required="true" requiredMessage="Поле является пустым"-->
-                    <!--                                 validatorMessage="Число вышло за ОДЗ" converterMessage="Введено не число">-->
-                    <!--                        <f:validateDoubleRange minimum="1.0" maximum="4.0"/>-->
-                    <!--                    </p:inputText><br/>-->
-                    <!--                    <p:slider for="r" minValue="1" maxValue="4" step="0.25" style="width: 220px; margin-top: 5px"/>-->
-                    <!--                    <h:message for="r" styleClass="warn"/><br/>-->
-                    <!--                    <h:commandButton styleClass="submit-button" action="#{checker.setChecked}" value="Проверить"/>-->
+                    <h:message for="y" styleClass="warn"/>
+
                 </h:form>
                 <!--                <h:panelGroup rendered="#{data.notEmpty}">-->
                 <!--                    <h2>История запросов</h2>-->
@@ -103,7 +122,7 @@
                 <!--                    </h:dataTable>-->
                 <!--                </h:panelGroup><br/>-->
                 <h:form>
-                    <h:commandButton styleClass="history-button button" action="GoToHome" value="Start Page"/>
+                    <h:commandButton styleClass="history-button button" action="Home" value="Start Page"/>
                 </h:form>
             </h:panelGroup>
             <h:panelGroup style="float:right;">
