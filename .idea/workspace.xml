@@ -3,18 +3,51 @@
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="ITMO_Web_lab3:war exploded" />
+      <artifact name="ITMO_Web_lab3:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="077196d1-6b71-4eb4-99fc-5f32a0b7ddfc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ITMO_Web_lab3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ITMO_Web_lab3_war.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/ITMO_Web_lab3_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ITMO_Web_lab3_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITMO_Web_lab3_war_exploded/main.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ITMO_Web_lab3_war_exploded/main.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ITMO_Web_lab3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ITMO_Web_lab3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ITMO_Web_lab3_war_exploded/WEB-INF/faces-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ITMO_Web_lab3_war_exploded/WEB-INF/lib/javax.annotation-api-1.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ITMO_Web_lab3_war_exploded/WEB-INF/lib/javax.jms-api-2.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ITMO_Web_lab3_war_exploded/WEB-INF/lib/javax.persistence-api-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ITMO_Web_lab3_war_exploded/WEB-INF/lib/javax.resource-api-1.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ITMO_Web_lab3_war_exploded/WEB-INF/lib/javax.transaction-api-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ITMO_Web_lab3_war_exploded/WEB-INF/lib/jsf-api-2.1.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ITMO_Web_lab3_war_exploded/WEB-INF/lib/jsf-impl-2.1.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ITMO_Web_lab3_war_exploded/WEB-INF/lib/jta-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ITMO_Web_lab3_war_exploded/WEB-INF/lib/primefaces-6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ITMO_Web_lab3_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ITMO_Web_lab3_war_exploded/home.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ITMO_Web_lab3_war_exploded/main.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ITMO_Web_lab3_war_exploded/static/img/area.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ITMO_Web_lab3_war_exploded/static/img/sad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ITMO_Web_lab3_war_exploded/static/img/shock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ITMO_Web_lab3_war_exploded/static/img/vt-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ITMO_Web_lab3_war_exploded/static/scripts/clock.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ITMO_Web_lab3_war_exploded/static/styles/main.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AreaChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AreaChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DataBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/home.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/home.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/main.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/main.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/img/shock.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/img/stitch_shock.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/scripts/clock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/scripts/clock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ITMO_Web_lab3.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITMO_Web_lab3.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ITMO_Web_lab3/WEB-INF/classes/META-INF/ITMO_Web_lab3.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,34 +97,6 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="s264475: schema" type="983ebcf7:PgImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="studs@pg" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="studs: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="s264475: schema" type="983ebcf7:PgImplModel$Schema" />
-        <item name="toha_pip: table" type="69fad909:PgImplModel$LocalTable" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="studs@pg" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="studs: database" type="162271b6:PgImplModel$Database" />
-        <item name="access methods" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="studs@pg" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="studs: database" type="162271b6:PgImplModel$Database" />
-        <item name="extensions" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="studs@pg" type="feb32156:DbDataSourceImpl" />
-        <item name="roles" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
     </expand>
     <select />
   </component>
@@ -99,6 +104,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -115,6 +121,13 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1TthmLwJrJjEVZnLFOsYEhwBbyT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
@@ -122,7 +135,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -132,16 +146,17 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/META-INF" />
       <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="$PROJECT_DIR$/src/main/webapp/static/styles" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -156,12 +171,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="GlassFish Server.GlassFish 4.1.2">
+  <component name="RunManager" selected="JBoss Server.JBoss 18.0.1.Final">
     <configuration name="GlassFish 4.1.2" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 4.1.2" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/ITMO_Web_lab3_war_exploded/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="ITMO_Web_lab3:war exploded">
+        <artifact name="ITMO_Web_lab3:war">
           <settings />
         </artifact>
       </deployment>
@@ -225,7 +239,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="ITMO_Web_lab3:war exploded" />
+          <artifact name="ITMO_Web_lab3:war" />
         </option>
       </method>
     </configuration>
@@ -314,17 +328,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f6a983d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@61eda66d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f6a983d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@e692e6a" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f6a983d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@13e8a9b0" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@61eda66d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@49c84a28" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -343,6 +352,14 @@
       <option name="presentableId" value="Default" />
       <updated>1574285456559</updated>
       <workItem from="1574285461153" duration="3594000" />
+      <workItem from="1574406067832" duration="8528000" />
+      <workItem from="1574461551120" duration="599000" />
+      <workItem from="1575210943941" duration="14170000" />
+      <workItem from="1575226955434" duration="828000" />
+      <workItem from="1575227798936" duration="92000" />
+      <workItem from="1575228367575" duration="1697000" />
+      <workItem from="1575317305910" duration="7944000" />
+      <workItem from="1575363421695" duration="11607000" />
     </task>
     <servers />
   </component>
@@ -354,7 +371,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

@@ -45,7 +45,7 @@ a {
     display: block;
     background: rgb(64, 102, 184);
     color: #ffffff;
-    width: 730px;
+    width: 800px;
     height: 100%;
     font-family: "Arial", sans-serif;
     font-style: normal;
@@ -58,6 +58,18 @@ a {
     display: block;
     float: left;
 }
+
+
+.link{
+    font-size: 30px;
+    font-family: "Ubuntu Light", SansSerif;
+}
+#yIn{
+    border-color: rgb(64, 102, 184);
+    background-color: #1f318d;
+}
+
+
 h1{
     margin: 10px;
     color: white;

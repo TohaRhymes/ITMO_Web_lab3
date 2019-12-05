@@ -1,7 +1,10 @@
 import model.Point;
 import org.primefaces.event.SlideEndEvent;
 
+
+import javax.faces.context.FacesContext;
 import java.io.Serializable;
+import java.util.Map;
 
 public class AreaChecker implements Serializable {
     private Double x;
@@ -29,9 +32,9 @@ public class AreaChecker implements Serializable {
         this.yCanvas = yCanvas;
     }
 
-    public AreaChecker() {
-        r = 3.0;
-        y = -5.0;
+    public AreaChecker(){
+        r=3.0;
+        y=-5.0;
     }
 
     public Double getX() {
@@ -76,27 +79,29 @@ public class AreaChecker implements Serializable {
         resizeResult = p.getIscheck();
     }
 
-    public void canvasCheck() {
+    public void canvasCheck(){
         Point p = new Point(getR(), xCanvas, yCanvas);
         bean.setCurrentPoint(p);
         resizeResult = p.getIscheck();
     }
 
-    public void resizeCheck() {
+    public void resizeCheck(){
         Point p = new Point(getR(), xCanvas, yCanvas);
         resizeResult = p.getIscheck();
     }
-
-    public void setBean(DataBean bean) {
-        this.bean = bean;
+    public void setBean(DataBean bean){
+        this.bean=bean;
+    }
+    public DataBean getBean(){
+         return bean;
     }
 
-    public boolean getReady() {
-        return x != null && y != null && r != null;
+    public boolean getReady(){
+        return x!=null && y!=null && r!=null;
     }
 
-    public void handleSlider(SlideEndEvent event) {
-        setY((double) event.getValue());
+    public void handleSlider(SlideEndEvent event){
+        setY((double)event.getValue());
     }
 
 }

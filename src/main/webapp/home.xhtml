@@ -13,7 +13,7 @@
             <a href="http://se.ifmo.ru" target="_blank"> <img src="static/img/vt-logo.png" id="logoimg" alt="logo"/></a><br/>
         </div>
         <div id="info">
-            <p><a href="https://github.com/TohaRhymes">Changalidi Anton</a></p>
+            <p><a href="https://github.com/TohaRhymes">MATAFAKINChangalidi Anton</a></p>
             <p>P3214</p>
             <p>Lab3 Variant 21905</p>
         </div>
@@ -22,19 +22,29 @@
 
     <div class="main">
 
-        <h:panelGrid columns="2" width="100%">
+        <h:panelGrid columns="3" width="100%">
+
+            <h:panelGroup style="float:left;">
+                <img src="static/img/stitch_hello.png" alt="stitch" width="200px"/>
+            </h:panelGroup>
+
             <h:panelGroup>
-                <div class="greeting">Welcome!
+                <div class="greeting">
+                    Welcome!
                     <div class="china">欢迎您!</div>
                     Добро пожаловать!
                 </div>
                 <div id="time-container"></div>
                 <script src="static/scripts/clock.js" type="text/javascript"></script>
                 <h:form>
-                    <h:commandButton styleClass="history-button button" action="GoToMain" value="Enter"/>
+<!--                    <h:commandButton styleClass="history-button button" action="GoToMain" value="Enter"/>-->
+                    <input type="button" class="history-button button" onclick='location.href="main.xhtml"' value="Enter"/>
                 </h:form>
             </h:panelGroup>
-            <h:panelGroup style="float:right;"><img src="static/img/shock.png" alt="stitch" width="200px"/></h:panelGroup>
+
+            <h:panelGroup style="float:right;">
+                <img src="static/img/stitch_shock.png" alt="stitch" width="200px"/>
+            </h:panelGroup>
         </h:panelGrid>
 
 

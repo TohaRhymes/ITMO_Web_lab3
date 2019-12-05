@@ -1,10 +1,16 @@
 import model.Point;
 
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.SessionScoped;
 import javax.persistence.EntityManager;
 import javax.persistence.Persistence;
 import javax.persistence.Query;
 import java.util.List;
 
+
+//eager -  сразу создастся (true), или лениво(false)
+//@ManagedBean(name = "data", eager = true)
+//@SessionScoped
 public class DataBean {
     private List<Point> points;
     private Point currentPoint;

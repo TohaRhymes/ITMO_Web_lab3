@@ -20,15 +20,6 @@
     </properties>
 
 
-    <repositories>
-        <repository>
-            <id>prime-repo</id>
-            <name>Prime Repo</name>
-            <url>http://repository.primefaces.org</url>
-        </repository>
-    </repositories>
-
-
     <dependencies>
         <dependency>
             <groupId>com.sun.faces</groupId>
@@ -54,7 +45,7 @@
         <dependency>
             <groupId>org.primefaces</groupId>
             <artifactId>primefaces</artifactId>
-            <version>6.0</version>
+            <version>7.0</version>
         </dependency>
 
 
@@ -115,8 +106,17 @@
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
-            <version>5.2.6.Final</version>
+            <version>5.4.1.Final</version>
         </dependency>
+
+
+        <!-- The tutorials use the PostgreSQL 9.3.5 database -->
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>9.2-1002-jdbc4</version>
+        </dependency>
+
 
 
 
@@ -139,4 +139,5 @@
             </plugins>
         </pluginManagement>
     </build>
+
 </project>
