@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="studs@pg" uuid="fe388acf-84f0-4acf-a3a9-516ccba81dac">
-      <database-info product="PostgreSQL" version="9.6.1" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.5" dbms="POSTGRES" exact-version="9.6.1" exact-driver-version="42.2">
+    <data-source name="@localhost" uuid="18c168a0-dd4d-4f5d-955d-33799c373d1f">
+      <database-info product="Oracle" version="Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production&#10;With the Partitioning, OLAP, Data Mining and Real Application Testing options" jdbc-version="4.2" driver-name="Oracle JDBC driver" driver-version="12.2.0.1.0" dbms="ORACLE" exact-version="11.2.0.3.0" exact-driver-version="12.2">
+        <extra-name-characters>$#</extra-name-characters>
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
-      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
       <user-name>s264475</user-name>
       <schema-mapping>
         <introspection-scope>
-          <node negative="1">
-            <node kind="database" qname="@">
-              <node kind="schema" qname="@" />
-            </node>
-            <node kind="database" qname="studs" />
+          <node kind="schema">
+            <name qname="@" />
+            <name qname="PUBLIC" />
           </node>
         </introspection-scope>
       </schema-mapping>
@@ -22,14 +21,13 @@
         <enabled>true</enabled>
         <proxy-host>se.ifmo.ru</proxy-host>
         <proxy-port>2222</proxy-port>
-        <secret-storage>master_key</secret-storage>
         <user>s264475</user>
         <use-password>true</use-password>
         <auth-type>PASSWORD</auth-type>
       </ssh-properties>
     </data-source>
-    <data-source name="hibernate/Hibernate" uuid="f26a3fd3-1873-4dde-99d3-0b83843bfa28">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" exact-version="0" />
+    <data-source name="hibernate/Hibernate" uuid="c39357a7-7c50-4ed3-9ea7-8ac355a185b7">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="ORACLE" exact-version="0" />
       <user-name>s264475</user-name>
       <schema-mapping />
     </data-source>

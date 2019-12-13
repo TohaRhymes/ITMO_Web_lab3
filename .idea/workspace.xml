@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="ITMO_Web_lab3:war exploded" />
-      <artifact name="ITMO_Web_lab3:war exploded" />
+      <artifact name="Lab3_new:war" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="077196d1-6b71-4eb4-99fc-5f32a0b7ddfc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/styles/main.css" afterDir="false" />
-    </list>
+    <list default="true" id="ad59de2e-2272-4125-be3f-c7fc8d082008" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,50 +27,30 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="studs@pg" type="feb32156:DbDataSourceImpl" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="studs@pg" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="S264475: schema" type="3abd1b6a:OraImplModel$Schema" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="studs@pg" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="studs: database" type="162271b6:PgImplModel$Database" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="S264475: schema" type="3abd1b6a:OraImplModel$Schema" />
+        <item name="POINT_R_HISTORY: table" type="942f455b:OraImplModel$Table" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="studs@pg" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="studs: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="studs@pg" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="studs: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="s264475: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="S264475: schema" type="3abd1b6a:OraImplModel$Schema" />
+        <item name="POINTS_XY: table" type="942f455b:OraImplModel$Table" />
       </path>
     </expand>
     <select />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/webapp/main.xhtml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -83,42 +59,27 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="1TthmLwJrJjEVZnLFOsYEhwBbyT" />
+  <component name="ProjectId" id="1UZ3AlaURaYBM3Q9mpTzDItOc6e" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="postgresql" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="oracle" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ITMO_Web_lab2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/META-INF" />
-      <recent name="$PROJECT_DIR$/src/main/java" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/static/styles" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+      <recent name="$PROJECT_DIR$/web/static/img" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -137,7 +98,7 @@
     <configuration name="GlassFish 4.1.2" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 4.1.2" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="ITMO_Web_lab3:war">
+        <artifact name="Lab3_new:war">
           <settings />
         </artifact>
       </deployment>
@@ -201,15 +162,14 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="ITMO_Web_lab3:war" />
+          <artifact name="Lab3_new:war" />
         </option>
       </method>
     </configuration>
-    <configuration name="JBoss 18.0.1.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 18.0.1.Final" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/ITMO_Web_lab3/" />
+    <configuration name="JBoss 18.0.1.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 18.0.1.Final" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="/opt/java/jdk-13+33" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="ITMO_Web_lab3:war exploded">
+        <artifact name="Lab3_new:war">
           <settings />
         </artifact>
       </deployment>
@@ -223,7 +183,7 @@
       </server-settings>
       <predefined_log_file enabled="true" id="JBoss" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="38587" />
+        <option name="DEBUG_PORT" value="35329" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -273,8 +233,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="ITMO_Web_lab3:war exploded" />
-          <artifact name="ITMO_Web_lab3:war exploded" />
+          <artifact name="Lab3_new:war" />
         </option>
       </method>
     </configuration>
@@ -283,47 +242,29 @@
       <item itemvalue="JBoss Server.JBoss 18.0.1.Final" />
     </list>
   </component>
-  <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@61eda66d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@61eda66d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@49c84a28" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-          </expand>
-          <select />
-        </treeState>
-      </serviceView>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="077196d1-6b71-4eb4-99fc-5f32a0b7ddfc" name="Default Changelist" comment="" />
-      <created>1574285456559</created>
+      <changelist id="ad59de2e-2272-4125-be3f-c7fc8d082008" name="Default Changelist" comment="" />
+      <created>1575550149749</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1574285456559</updated>
-      <workItem from="1574285461153" duration="3594000" />
-      <workItem from="1574406067832" duration="8528000" />
-      <workItem from="1574461551120" duration="599000" />
-      <workItem from="1575210943941" duration="14170000" />
-      <workItem from="1575226955434" duration="828000" />
-      <workItem from="1575227798936" duration="92000" />
-      <workItem from="1575228367575" duration="1697000" />
-      <workItem from="1575317305910" duration="7944000" />
-      <workItem from="1575363421695" duration="11607000" />
-      <workItem from="1575543706230" duration="770000" />
-      <workItem from="1575550589875" duration="7439000" />
+      <updated>1575550149749</updated>
+      <workItem from="1575550154366" duration="18542000" />
+      <workItem from="1575575178996" duration="301000" />
+      <workItem from="1575610634768" duration="809000" />
+      <workItem from="1575611769898" duration="488000" />
+      <workItem from="1575612780783" duration="4003000" />
+      <workItem from="1575618086888" duration="9013000" />
+      <workItem from="1575741373919" duration="1394000" />
+      <workItem from="1575757331597" duration="702000" />
+      <workItem from="1575899713459" duration="441000" />
+      <workItem from="1575918624941" duration="94000" />
+      <workItem from="1575972416759" duration="664000" />
+      <workItem from="1576014276940" duration="599000" />
+      <workItem from="1576278997442" duration="235000" />
     </task>
     <servers />
   </component>
