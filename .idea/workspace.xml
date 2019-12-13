@@ -8,46 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="077196d1-6b71-4eb4-99fc-5f32a0b7ddfc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ITMO_Web_lab3_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ITMO_Web_lab3_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ITMO_Web_lab3_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ITMO_Web_lab3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ITMO_Web_lab3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITMO_Web_lab3_war_exploded/WEB-INF/faces-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITMO_Web_lab3_war_exploded/WEB-INF/lib/javax.annotation-api-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITMO_Web_lab3_war_exploded/WEB-INF/lib/javax.jms-api-2.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITMO_Web_lab3_war_exploded/WEB-INF/lib/javax.persistence-api-2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITMO_Web_lab3_war_exploded/WEB-INF/lib/javax.resource-api-1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITMO_Web_lab3_war_exploded/WEB-INF/lib/javax.transaction-api-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITMO_Web_lab3_war_exploded/WEB-INF/lib/jsf-api-2.1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITMO_Web_lab3_war_exploded/WEB-INF/lib/jsf-impl-2.1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITMO_Web_lab3_war_exploded/WEB-INF/lib/jta-1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITMO_Web_lab3_war_exploded/WEB-INF/lib/primefaces-6.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITMO_Web_lab3_war_exploded/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITMO_Web_lab3_war_exploded/home.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITMO_Web_lab3_war_exploded/main.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITMO_Web_lab3_war_exploded/static/img/area.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITMO_Web_lab3_war_exploded/static/img/sad.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITMO_Web_lab3_war_exploded/static/img/shock.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITMO_Web_lab3_war_exploded/static/img/vt-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITMO_Web_lab3_war_exploded/static/scripts/clock.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ITMO_Web_lab3_war_exploded/static/styles/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AreaChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AreaChecker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DataBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/home.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/home.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/main.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/main.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/img/shock.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/img/stitch_shock.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/scripts/clock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/scripts/clock.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/static/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITMO_Web_lab3.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITMO_Web_lab3.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITMO_Web_lab3/WEB-INF/classes/META-INF/ITMO_Web_lab3.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -136,7 +98,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ITMO_Web_lab2" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -360,6 +322,8 @@
       <workItem from="1575228367575" duration="1697000" />
       <workItem from="1575317305910" duration="7944000" />
       <workItem from="1575363421695" duration="11607000" />
+      <workItem from="1575543706230" duration="770000" />
+      <workItem from="1575550589875" duration="7439000" />
     </task>
     <servers />
   </component>
